@@ -1,0 +1,8 @@
+{
+  "name": "행복반 키오스크",
+  "description": "행복반 어린이들을 위한 귀여운 수동 직접 투입 결제 키오스크. 지폐와 동전을 직접 버튼을 통해 투입하고 결제하는 가상 시뮬레이션 인터페이스입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

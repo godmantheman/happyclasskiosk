@@ -1,0 +1,121 @@
+import { Product } from "./types";
+
+export const PRODUCTS: Product[] = [
+  // 맛있는 간식 (category: "food") - 100~600원 위주
+  {
+    id: "snack-1",
+    name: "고래밥",
+    price: 400,
+    image: "🐳",
+    category: "food",
+    description: "바삭바삭하고 고소한 여러 가지 바다 동물 모양 과자",
+  },
+  {
+    id: "snack-2",
+    name: "초코픽",
+    price: 500,
+    image: "🍫",
+    category: "food",
+    description: "바삭한 막대과자를 달콤한 초코시럽과 팝핑 캔디에 콕 찍어 먹는 과자",
+  },
+  {
+    id: "snack-3",
+    name: "리찌알맹이",
+    price: 300,
+    image: "🍇",
+    category: "food",
+    description: "진짜 리치 과즙이 듬뿍 들어가 탱글탱글 씹는 맛이 살아있는 젤리 알맹이",
+  },
+  {
+    id: "snack-4",
+    name: "촉촉한 초코칩",
+    price: 400,
+    image: "🍪",
+    category: "food",
+    description: "초콜릿 칩이 콕콕 박혀 있어 입안에서 부드럽게 녹아내리는 초코칩 쿠키",
+  },
+  {
+    id: "snack-5",
+    name: "작은 젤리",
+    price: 100,
+    image: "🍬",
+    category: "food",
+    description: "한 입에 쏙 들어오는 새콤달콤 알록달록 미니 젤리",
+  },
+
+  // 재미있는 장난감 (category: "drink") - 물총/기계류: 700~1300원, 부채/잡다한 것: 100~300원
+  {
+    id: "toy-1",
+    name: "물개장난감 (태엽 작동)",
+    price: 1000,
+    image: "🦭",
+    category: "drink",
+    description: "옆면의 태엽을 도르륵 돌려놓으면 지상과 물 위에서 파닥파닥 움직이는 귀여운 물개",
+  },
+  {
+    id: "toy-2",
+    name: "물총놀이",
+    price: 1000,
+    image: "🔫",
+    category: "drink",
+    description: "여름날 시원하게 멀리까지 물줄기를 쏘며 놀 수 있는 고성능 미니 물총",
+  },
+  {
+    id: "toy-3",
+    name: "비눗방울",
+    price: 800,
+    image: "🫧",
+    category: "drink",
+    description: "가볍게 훅 불어주면 오색찬란하고 예쁜 방울들이 가득 날아다니는 버블 스틱",
+  },
+  {
+    id: "toy-4",
+    name: "구운 마시멜로 딸깍이 키캡 키링",
+    price: 800,
+    image: "🔑",
+    category: "drink",
+    description: "진짜 마시멜로처럼 말랑한 디자인에 누를 때마다 딸깍딸깍 소리가 나는 중독성 있는 피젯 키캡 키링",
+  },
+  {
+    id: "toy-5",
+    name: "흰둥이 지갑",
+    price: 300,
+    image: "👛",
+    category: "drink",
+    description: "보들보들한 극세사 털로 덮여 있는 귀여운 신짱구네 강아지 흰둥이 얼굴 동전지갑",
+  },
+  {
+    id: "toy-6",
+    name: "짱구부채",
+    price: 200,
+    image: "🪭",
+    category: "drink",
+    description: "무더운 Summer 행복반 친구들의 땀을 시원하게 식혀줄 짱구 일러스트가 그려진 가벼운 부채",
+  },
+  {
+    id: "toy-7",
+    name: "만두 말랑이",
+    price: 1000,
+    image: "🥟",
+    category: "drink",
+    description: "큼직하고 쫀득쫀득 최고의 촉감을 선사하는 만두 모양 대형 말랑이 장난감",
+  },
+
+  // 공부와 문구 (category: "dessert") - 슬라임키트: 1100원, 필기구류: 100~500원
+  {
+    id: "stationery-1",
+    name: "아이슬라임 키트",
+    price: 1100,
+    image: "🧪",
+    category: "dessert",
+    description: "어린이 안전 인증을 받은, 쫀득쫀득 촉감 발달에 좋은 DIY 슬라임 만들기 풀세트",
+  },
+  {
+    id: "stationery-2",
+    name: "필기구",
+    price: 300,
+    image: "✏️",
+    category: "dessert",
+    description: "공부할 때 쓰는 아기자기하고 유용한 행복반 친구들의 필기구 세트",
+  },
+];
